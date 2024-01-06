@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #011627;
+    color: #fdfffc;
+    text-align: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/008/651/788/original/organic-abstract-light-purple-minimalist-background-with-leaves-pastel-backgrounds-free-vector.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background: size 90vh;
+    height: 91vh;
+}
+
+h1{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+input{
+    width: 75px;
+    height: 50px;
+    font-size: 45px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-style: none;
+
+}
+
+.btn {
+    transition: .5s ease;
+}
+
+.btn:hover{
+    background-color: #fff1 ;
+    cursor: pointer;
+}
+
+body::after {
+    content: "Ayluvanime";
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    background-color: #011627;
+    color: #fdfffc;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #fdfffc; 
+}
+
